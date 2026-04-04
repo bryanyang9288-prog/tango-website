@@ -342,7 +342,7 @@ document.querySelector("#app").innerHTML = `
               <div class="contact-meta">
                 <p><strong>Rex Wong</strong></p>
                 <p>Phone: +61 423 322 564</p>
-                <p>Email: rex.wong@tangohygiene.com.au</p>
+                <p>Email: info@tangohygiene.com.au</p>
               </div>
             </article>
             <article class="card">
@@ -364,7 +364,7 @@ document.querySelector("#app").innerHTML = `
     <footer class="site-footer section">
       <div class="container footer-row">
         <p>Tango. Advanced adult diaper technology for better comfort and fit.</p>
-        <p>rex.wong@tangohygiene.com.au | +61 423 322 564</p>
+        <p>info@tangohygiene.com.au | +61 423 322 564</p>
       </div>
     </footer>
   </div>
