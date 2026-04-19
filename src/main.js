@@ -154,97 +154,94 @@ document.querySelector("#app").innerHTML = `
         <div class="container product-guide">
           <h2>Product Guide</h2>
           <p class="section-intro">
-            Explore Tango’s core product categories for different care needs,
-            sourcing plans, and business inquiries.
+            Explore Tango product options designed for different care needs, with
+            clear guidance for sourcing and business inquiries.
           </p>
 
-          <div class="guide-top-layout">
+          <div class="product-block">
             <figure class="guide-main-visual">
               <img
                 src="/product-guide-main.jpeg"
-                alt="Tango product guide main visual with package and opened diaper"
+                alt="Adult diapers package and opened diaper"
               />
             </figure>
             <article class="guide-formats">
-              <h3>Product Formats</h3>
+              <p class="product-eyebrow">CORE CARE</p>
+              <h3>Adult Diapers</h3>
               <p class="guide-sub-desc">
-                Core product formats for daily care, facility needs, and business
-                sourcing.
+                Designed for higher absorbency, secure fit, and dependable
+                protection in extended wear situations.
               </p>
               <ul class="format-list">
-                <li>
-                  <span class="format-name">Adult Diapers</span>
-                  <span class="format-note">Higher absorbency and secure fit for extended wear.</span>
-                </li>
-                <li>
-                  <span class="format-name">Pads</span>
-                  <span class="format-note">Lighter support for discreet, flexible daily routines.</span>
-                </li>
-                <li>
-                  <span class="format-name">Underpads</span>
-                  <span class="format-note">Protects bedding and surfaces in home or facility care.</span>
-                </li>
+                <li>Higher absorbency for extended wear</li>
+                <li>Secure fit with leakage control</li>
+                <li>Available sizes: M / L / XL</li>
               </ul>
+              <a class="product-inline-link" href="#inquiry-form">Request Samples →</a>
             </article>
           </div>
 
-          <div class="size-section">
-            <h3>Available Sizes</h3>
-            <div class="size-grid">
-              <article class="size-box">
-                <p class="size-label">M</p>
-                <p>Waist: 75–105 cm</p>
-              </article>
-              <article class="size-box">
-                <p class="size-label">L</p>
-                <p>Waist: 95–130 cm</p>
-              </article>
-              <article class="size-box">
-                <p class="size-label">XL</p>
-                <p>Waist: 120–150 cm</p>
-              </article>
-            </div>
-            <figure class="size-chart">
+          <div class="product-block product-block-reverse">
+            <article class="guide-formats">
+              <p class="product-eyebrow">DAILY SUPPORT</p>
+              <h3>ActivePro Pads</h3>
+              <p class="guide-sub-desc">
+                A discreet, everyday support option designed for lighter bladder
+                leak care and daily comfort.
+              </p>
+              <ul class="format-list">
+                <li>Soft surface for daily wear</li>
+                <li>Slim profile for discreet support</li>
+                <li>Dimensions: 410 × 140 mm</li>
+              </ul>
+              <a class="product-inline-link" href="#inquiry-form">Request Samples →</a>
+            </article>
+            <figure class="guide-main-visual">
               <img
-                src="/product-formats-chart.jpg"
-                alt="Tango product formats and size chart"
+                src="/activepro-pads.jpeg"
+                alt="ActivePro Pads product image"
               />
             </figure>
           </div>
+
         </div>
       </section>
 
       <section class="section section-soft" id="brand-story">
         <div class="container brand-story">
           <h2>Engineered for Comfort, Inspired by Love</h2>
+          <p class="brand-story-intro">
+            No matter the format, comfort and dignity should never be compromised.
+          </p>
           <div class="brand-story-layout">
             <div class="brand-story-copy">
-              <article>
+              <article class="brand-story-card-light">
                 <h3>Our Story</h3>
                 <p>
                   Tango Hygiene is a family-owned Australian business based in
                   Sydney. Founded in 2025, our roots in textile and materials
-                  expertise go back more than 20 years.
+                  expertise go back more than 20 years. We built Tango to bring
+                  together reliable protection, softer comfort, and a more
+                  thoughtful everyday care experience.
                 </p>
               </article>
               <article>
                 <h3>The Inspiration</h3>
                 <p>
-                  Tango started with something personal. One of our founders’
-                  relatives—once the owner of a high-end lingerie brand in Hong
-                  Kong—lived with dementia in her final years. We saw her
-                  experience repeated discomfort and skin irritation from standard
-                  products. Many options provided protection, but few were truly
-                  designed for long-term comfort and sensitive skin.
+                  Tango began with something personal. One of our founders’
+                  relatives lived with dementia in her final years, and we saw how
+                  standard products often protected, but failed to provide long-term
+                  comfort and skin-friendly care. Many products offered protection,
+                  but few truly supported long-term dignity and skin comfort.
                 </p>
               </article>
               <article>
                 <h3>Our Mission</h3>
                 <p>
-                  So we set out to build something better. By combining decades of
-                  textile engineering expertise with real caregiving needs, Tango
-                  products are designed to deliver reliable protection, while
-                  preserving comfort, dignity, and everyday wellbeing.
+                  We set out to build something better by combining textile
+                  engineering expertise with real caregiving needs—creating products
+                  that support protection, comfort, dignity, and everyday
+                  wellbeing. <span class="brand-story-note-inline">Built to protect, designed to care.</span>
                 </p>
               </article>
             </div>
@@ -347,13 +344,28 @@ document.querySelector("#app").innerHTML = `
             </article>
             <article class="card">
               <h3>Inquiry Form</h3>
-              <form class="contact-form" aria-label="Inquiry form">
-                <input type="text" placeholder="Name" />
-                <input type="text" placeholder="Company" />
-                <input type="email" placeholder="Email" />
-                <input type="text" placeholder="Suburb" />
-                <textarea placeholder="Message"></textarea>
-                <button type="button" class="button-primary">Send Inquiry</button>
+              <form
+                id="inquiry-form"
+                class="contact-form"
+                aria-label="Inquiry form"
+                action="https://api.web3forms.com/submit"
+                method="post"
+              >
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="71c80644-d632-4911-bee2-911b1bb5f806"
+                />
+                <input type="hidden" name="subject" value="Tango Website Inquiry" />
+                <input type="hidden" name="from_name" value="Tango Website Form" />
+                <input type="checkbox" name="botcheck" class="form-botcheck" tabindex="-1" autocomplete="off" />
+                <input type="text" name="name" placeholder="Name" required />
+                <input type="text" name="company" placeholder="Company" />
+                <input type="email" name="email" placeholder="Email" required />
+                <input type="text" name="suburb" placeholder="Suburb" />
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="button-primary">Send Inquiry</button>
+                <p id="inquiry-status" class="form-status" aria-live="polite"></p>
               </form>
             </article>
           </div>
@@ -369,3 +381,45 @@ document.querySelector("#app").innerHTML = `
     </footer>
   </div>
 `;
+
+const inquiryForm = document.querySelector("#inquiry-form");
+const inquiryStatus = document.querySelector("#inquiry-status");
+
+if (inquiryForm && inquiryStatus) {
+  inquiryForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(inquiryForm);
+    const accessKey = String(formData.get("access_key") || "");
+
+    if (!accessKey || accessKey === "REPLACE_WITH_WEB3FORMS_ACCESS_KEY") {
+      inquiryStatus.textContent = "Please set your Web3Forms access key first.";
+      inquiryStatus.dataset.state = "error";
+      return;
+    }
+
+    inquiryStatus.textContent = "Sending...";
+    inquiryStatus.dataset.state = "";
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        inquiryStatus.textContent = "Thanks. Your inquiry has been sent.";
+        inquiryStatus.dataset.state = "success";
+        inquiryForm.reset();
+      } else {
+        inquiryStatus.textContent = "Submit failed. Please try again.";
+        inquiryStatus.dataset.state = "error";
+      }
+    } catch (error) {
+      inquiryStatus.textContent = "Network issue. Please try again.";
+      inquiryStatus.dataset.state = "error";
+    }
+  });
+}
