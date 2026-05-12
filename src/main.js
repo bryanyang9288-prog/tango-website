@@ -1,6 +1,6 @@
-import "./style.css";
+﻿import "./style.css";
 
-document.querySelector("#app").innerHTML = `
+(function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin===`use-credentials`?t.credentials=`include`:e.crossOrigin===`anonymous`?t.credentials=`omit`:t.credentials=`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})(),document.querySelector(`#app`).innerHTML=`
   <div class="site-shell">
     <header class="site-header section">
       <div class="container header-row">
@@ -27,10 +27,10 @@ document.querySelector("#app").innerHTML = `
               alt="Tango adult care lifestyle and product key visual"
             />
             <div class="hero-copy">
-              <h1>Less leaking. Less rash worry. More comfort.<br />— For you and your carer.</h1>
+              <h1>Less leaking. Less worry about rashes. More comfort.<br />For you and your carer.</h1>
               <p class="lead">
-                Tango is designed to improve wet comfort, fit more securely, and
-                deliver a better wearing experience through practical product
+                Tango is designed to improve comfort when wet, fit more securely,
+                and deliver a better wearing experience through practical product
                 innovation.
               </p>
               <div class="hero-actions">
@@ -45,11 +45,11 @@ document.querySelector("#app").innerHTML = `
       <section class="section" id="pain-points">
         <div class="container pain-section">
           <div class="pain-title-row">
-            <h2>When “doesn’t leak” still turns into a long night…</h2>
+            <h2>When “doesn’t leak” still turns into a long night...</h2>
           </div>
           <p class="section-intro">
-            Even with basic protection, nights can still mean wake-ups, skin
-            stress, and extra cleanup.
+            Even with basic protection, nights can still mean repeated wake-ups,
+            skin stress, and extra cleanup.
           </p>
 
           <div class="pain-layout">
@@ -63,7 +63,7 @@ document.querySelector("#app").innerHTML = `
                   </svg>
                 </span>
                 <h3>Overnight Soak</h3>
-                <p>Padding may hold fluid, but prolonged wet contact still disturbs rest.</p>
+                <p>Padding may hold fluid, but prolonged exposure to wetness still disturbs rest.</p>
               </article>
               <article class="card pain-card">
                 <span class="pain-card-icon" aria-hidden="true">
@@ -74,7 +74,7 @@ document.querySelector("#app").innerHTML = `
                   </svg>
                 </span>
                 <h3>Rash and Skin Stress</h3>
-                <p>Heat, friction, and moisture buildup can leave skin more sensitive by morning.</p>
+                <p>Heat, friction, and the buildup of moisture can leave skin more sensitive by morning.</p>
               </article>
               <article class="card pain-card">
                 <span class="pain-card-icon" aria-hidden="true">
@@ -86,7 +86,7 @@ document.querySelector("#app").innerHTML = `
                   </svg>
                 </span>
                 <h3>More Work for Carers</h3>
-                <p>Night checks, changes, and bedding cleanup add pressure to every routine.</p>
+                <p>Night checks, changes, and cleaning bedding add pressure to every routine.</p>
               </article>
               <article class="card pain-card pain-card-result">
                 <span class="pain-card-icon" aria-hidden="true">
@@ -95,7 +95,7 @@ document.querySelector("#app").innerHTML = `
                     <path d="M8 12l2.5 2.5L16 9"></path>
                   </svg>
                 </span>
-                <h3>Fewer Night Disruptions</h3>
+                <h3>Fewer Night-time Disruptions</h3>
                 <p>Better overnight comfort means fewer disruptions for both users and carers.</p>
               </article>
             </div>
@@ -203,7 +203,6 @@ document.querySelector("#app").innerHTML = `
               />
             </figure>
           </div>
-
         </div>
       </section>
 
@@ -239,8 +238,8 @@ document.querySelector("#app").innerHTML = `
                 <h3>Our Mission</h3>
                 <p>
                   We set out to build something better by combining textile
-                  engineering expertise with real caregiving needs—creating products
-                  that support protection, comfort, dignity, and everyday
+                  engineering expertise with real caregiving needs, creating
+                  products that support protection, comfort, dignity, and everyday
                   wellbeing. <span class="brand-story-note-inline">Built to protect, designed to care.</span>
                 </p>
               </article>
@@ -375,51 +374,9 @@ document.querySelector("#app").innerHTML = `
 
     <footer class="site-footer section">
       <div class="container footer-row">
-        <p>Tango. Advanced adult diaper technology for better comfort and fit.</p>
+        <p>Tango. Advanced technology for better comfort.</p>
         <p>info@tangohygiene.com.au | +61 423 322 564</p>
       </div>
     </footer>
   </div>
-`;
-
-const inquiryForm = document.querySelector("#inquiry-form");
-const inquiryStatus = document.querySelector("#inquiry-status");
-
-if (inquiryForm && inquiryStatus) {
-  inquiryForm.addEventListener("submit", async (event) => {
-    event.preventDefault();
-
-    const formData = new FormData(inquiryForm);
-    const accessKey = String(formData.get("access_key") || "");
-
-    if (!accessKey || accessKey === "REPLACE_WITH_WEB3FORMS_ACCESS_KEY") {
-      inquiryStatus.textContent = "Please set your Web3Forms access key first.";
-      inquiryStatus.dataset.state = "error";
-      return;
-    }
-
-    inquiryStatus.textContent = "Sending...";
-    inquiryStatus.dataset.state = "";
-
-    try {
-      const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        body: formData,
-      });
-
-      const result = await response.json();
-
-      if (result.success) {
-        inquiryStatus.textContent = "Thanks. Your inquiry has been sent.";
-        inquiryStatus.dataset.state = "success";
-        inquiryForm.reset();
-      } else {
-        inquiryStatus.textContent = "Submit failed. Please try again.";
-        inquiryStatus.dataset.state = "error";
-      }
-    } catch (error) {
-      inquiryStatus.textContent = "Network issue. Please try again.";
-      inquiryStatus.dataset.state = "error";
-    }
-  });
-}
+`;var e=document.querySelector(`#inquiry-form`),t=document.querySelector(`#inquiry-status`);e&&t&&e.addEventListener(`submit`,async n=>{n.preventDefault();let r=new FormData(e),i=String(r.get(`access_key`)||``);if(!i||i===`REPLACE_WITH_WEB3FORMS_ACCESS_KEY`){t.textContent=`Please set your Web3Forms access key first.`,t.dataset.state=`error`;return}t.textContent=`Sending...`,t.dataset.state=``;try{(await(await fetch(`https://api.web3forms.com/submit`,{method:`POST`,body:r})).json()).success?(t.textContent=`Thanks. Your inquiry has been sent.`,t.dataset.state=`success`,e.reset()):(t.textContent=`Submit failed. Please try again.`,t.dataset.state=`error`)}catch{t.textContent=`Network issue. Please try again.`,t.dataset.state=`error`}});
