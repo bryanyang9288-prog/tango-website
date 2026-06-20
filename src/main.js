@@ -150,12 +150,35 @@
         </div>
       </section>
 
+      <section class="section" id="demo-video">
+        <div class="container demo-video">
+          <div class="demo-video-copy">
+            <h2>Watch the Demonstration Video</h2>
+            <p class="section-intro">
+              Tango Hygiene Adult Diapers are designed for simple
+              self-application while seated, without needing to completely remove
+              your pants. Ideal for maintaining independence at home or when out
+              and about.
+            </p>
+          </div>
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/FjsW54hnbiY"
+              title="Tango Hygiene Adult Diapers demonstration video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
       <section class="section" id="technology-overview">
         <div class="container product-guide">
           <h2>Product Guide</h2>
           <p class="section-intro">
-            Explore Tango product options designed for different care needs, with
-            clear guidance for sourcing and business inquiries.
+            Tango Hygiene is a family-owned Australian company providing quality
+            continence care products, including: Active-Pro Pads / Adult Diapers /
+            Adult Pants / Protective Mats.
           </p>
 
           <div class="product-block">
@@ -311,11 +334,21 @@
           <div class="contact-cta-copy">
             <h2>Shop with confidence</h2>
             <p class="section-intro">
-              Any unopened packs can be returned within 7 days. Based in Sydney
-              CBD & North, Tango makes it easy to get comfort-first protection
-              fast. If you ordered the wrong size, you can return it within one
-              week if unopened.
+              Any unopened packs can be returned within 7 days.
             </p>
+            <div class="local-stores">
+              <h3>Available at Local Stores</h3>
+              <ul>
+                <li><strong>IGA Turramurra</strong><span>99 Eastern Road, Turramurra NSW 2074</span></li>
+                <li><strong>Taylors Pharmacy</strong><span>33 Rohini Street, Turramurra NSW 2074 (near Turramurra Station)</span></li>
+                <li><strong>IGA Chris's Family Grocer</strong><span>99A Eastern Road, Turramurra NSW 2074</span></li>
+                <li><strong>Priceline Pharmacy Gordon</strong><span>Shop 1, 808 Pacific Highway, Gordon NSW 2072</span></li>
+                <li><strong>Berowra Station Pharmacy</strong><span>Shop 1, 1001 Pacific Highway, Berowra NSW 2081</span></li>
+                <li><strong>Caremore Pharmacy</strong><span>2/2 Booralie Road, Terrey Hills NSW 2084</span></li>
+                <li><strong>Cincotta Discount Chemist Belrose</strong><span>4-6 Niangala Close, Belrose NSW 2085</span></li>
+              </ul>
+              <p>Free delivery within Sydney's Upper North Shore for phone orders over $100.</p>
+            </div>
             <div class="inline-actions">
               <a class="button-primary" href="#contact">Contact Us</a>
               <a class="button-secondary" href="#contact">Send Inquiry</a>
