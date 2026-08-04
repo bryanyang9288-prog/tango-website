@@ -1,0 +1,39 @@
+Change Summary Since 31/07/2026 19:30
+
+Main Website Updates
+- Added a new Product Photos section.
+- Split product photos into two framed groups: ActivePro Pads and Adult Diapers.
+- Added click-to-enlarge viewing for product photos.
+- Added YouTube demo videos under Watch the Demonstration Video.
+- Updated ActivePro Pads demo wording and Adult Diapers demo wording.
+
+Photos / Image Changes
+- Uploaded and used the Pad and Diaper product photos provided.
+- Cleaned the yellow tone from the Pad absorbency photo.
+- Edited the bed/carer photo so the woman has a natural smile.
+- Re-applied the cleaner blue version of the Adult Diapers Pack Front photo.
+
+Text / Brand Copy
+- Reviewed and made the whole website copy more consistent.
+- Changed the tone to be more positive, focused on comfort, care, confidence, and dignity.
+- Updated hero, pain-points, technology, FAQ, Product Guide, Product Photos, and footer copy.
+- Updated Our Story, The Inspiration, and Our Mission with the latest family story text.
+- Updated website title and meta description.
+- Changed all website text to Arial.
+
+Product / Section Styling
+- Updated the Quick-Dry Comfort card background to match Calmer Nights for Everyone.
+- Adjusted Product Guide diaper pack colour tone for consistency.
+- Tidied product photo labels, including adhesive sticker wording.
+
+Local Stores
+- Rebuilt Available at Local Stores with suburb groupings.
+- Added Turramurra, Gordon, Hornsby, Berowra, Terrey Hills, Belrose, St Ives, Beecroft, Carlingford, Cherrybrook, Dural, St Marys, and Minchinbury stores.
+- Made suburb headings larger and bold.
+
+Current Status
+- Latest build has passed.
+- Current preview: http://localhost:5174/
+
+Note
+- This folder does not appear to have git history, so this summary is based on the current files and the changes made in this task.

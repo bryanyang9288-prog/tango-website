@@ -22,7 +22,7 @@ body {
 }
 
 body {
-  font-family: "Lato", "Trebuchet MS", "Segoe UI", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: var(--text);
   background:
     radial-gradient(circle at 10% 10%, #ffffff 0%, transparent 45%),
@@ -34,7 +34,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Merriweather", Georgia, "Times New Roman", serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #24302e;
   margin: 0 0 12px;
 }
@@ -449,6 +449,10 @@ a {
   display: block;
 }
 
+.guide-main-visual-diaper img {
+  filter: saturate(0.86) hue-rotate(4deg) brightness(1.03) contrast(0.96);
+}
+
 .guide-formats {
   border: 1px solid #dde2e8;
   border-radius: 14px;
@@ -508,6 +512,196 @@ a {
   position: absolute;
   right: 20px;
   bottom: 16px;
+}
+
+.product-photos {
+  display: grid;
+  gap: 24px;
+}
+
+.product-photos-heading {
+  max-width: 78ch;
+}
+
+.product-photo-groups {
+  display: grid;
+  gap: 22px;
+}
+
+.product-photo-group {
+  border: 2px solid #c9d6d2;
+  border-radius: 18px;
+  background: #ffffff;
+  padding: 22px;
+  box-shadow: 0 16px 34px rgba(42, 58, 73, 0.08);
+}
+
+.product-photo-group-diapers {
+  border-color: #d8cde1;
+}
+
+.product-photo-group-heading {
+  display: grid;
+  gap: 2px;
+  margin-bottom: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e4e5dd;
+}
+
+.product-photo-group-heading h3 {
+  margin-bottom: 0;
+}
+
+.product-photo-gallery {
+  display: grid;
+  gap: 14px;
+}
+
+.product-photo-gallery-four {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.product-photo-gallery-three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.product-photo-tile {
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  overflow: hidden;
+  border: 1px solid #e0ded4;
+  border-radius: 12px;
+  background: #f8fafb;
+}
+
+.product-photo-tile img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  cursor: zoom-in;
+  transition: filter 0.2s ease, transform 0.2s ease;
+}
+
+.product-photo-tile img:hover {
+  filter: brightness(0.96);
+  transform: scale(1.01);
+}
+
+.product-photo-tile img:focus {
+  outline: 3px solid rgba(95, 31, 128, 0.42);
+  outline-offset: -3px;
+}
+
+.product-photo-tile-contain img {
+  object-fit: contain;
+  padding: 10px;
+  background: #ffffff;
+}
+
+.product-photo-tile figcaption {
+  min-height: 52px;
+  padding: 12px 14px;
+  color: #344240;
+  font-weight: 700;
+  line-height: 1.35;
+  background: #ffffff;
+  border-top: 1px solid #e8e5dc;
+}
+
+.photo-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  display: none;
+  place-items: center;
+  padding: 24px;
+}
+
+.photo-lightbox[data-state="open"] {
+  display: grid;
+}
+
+.photo-lightbox-backdrop {
+  position: absolute;
+  inset: 0;
+  border: 0;
+  background: rgba(22, 30, 29, 0.78);
+  cursor: zoom-out;
+}
+
+.photo-lightbox-dialog {
+  position: relative;
+  width: min(1120px, calc(100vw - 36px));
+  max-height: calc(100vh - 36px);
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 10px;
+  border-radius: 14px;
+  background: #ffffff;
+  padding: 14px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.38);
+}
+
+.photo-lightbox-dialog img {
+  width: 100%;
+  max-height: calc(100vh - 132px);
+  object-fit: contain;
+  display: block;
+  border-radius: 10px;
+  background: #f7f7f3;
+}
+
+.photo-lightbox-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(36, 48, 46, 0.9);
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.photo-lightbox-caption {
+  margin: 0;
+}
+
+#photo-lightbox-caption {
+  color: #344240;
+  font-weight: 700;
+  padding: 0 48px 2px 2px;
+}
+
+.product-video-panel {
+  display: grid;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.product-video-copy {
+  display: grid;
+  gap: 6px;
+  max-width: 76ch;
+  padding-top: 10px;
+}
+
+.product-video-copy h3 {
+  margin-bottom: 4px;
+}
+
+.product-video-copy p:last-child {
+  color: var(--text-muted);
+}
+
+.product-video-frame {
+  width: 100%;
 }
 
 .brand-story {
@@ -571,6 +765,10 @@ a {
 
 .brand-story-copy p {
   color: #556664;
+}
+
+.brand-story-copy article p + p {
+  margin-top: 10px;
 }
 
 .brand-story-visual {
@@ -674,7 +872,8 @@ a {
 
 .local-stores li {
   display: grid;
-  gap: 1px;
+  grid-template-columns: 14px 1fr;
+  gap: 2px;
   color: #344240;
   font-size: 0.95rem;
 }
@@ -701,6 +900,49 @@ a {
 
 .local-stores li span {
   color: var(--text-muted);
+}
+
+.local-stores ul {
+  gap: 14px;
+}
+
+.local-stores li {
+  gap: 2px;
+}
+
+.local-stores li::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  margin-top: 0.58em;
+  margin-right: 0;
+  border-radius: 50%;
+  background: #5f1f80;
+  grid-column: 1;
+  grid-row: 1 / span 3;
+}
+
+.local-stores .store-suburb {
+  color: #5f1f80;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  margin-bottom: 2px;
+}
+
+.local-stores .store-entry {
+  grid-column: 2;
+  display: grid;
+  gap: 1px;
+}
+
+.local-stores .store-entry + .store-entry {
+  margin-top: 8px;
+}
+
+.local-stores .store-entry strong,
+.local-stores .store-entry span {
+  grid-column: auto;
 }
 
 .local-stores p {
@@ -805,6 +1047,20 @@ a {
 }
 
 @media (max-width: 900px) {
+  .header-row {
+    align-items: flex-start;
+  }
+
+  .header-nav {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 10px 14px;
+  }
+
+  .header-nav a {
+    font-size: 0.88rem;
+  }
+
   .hero {
     padding-top: 56px;
     padding-bottom: 56px;
@@ -859,6 +1115,44 @@ a {
   .guide-main-visual {
     min-height: 280px;
     max-height: none;
+  }
+
+  .product-photo-group {
+    padding: 16px;
+  }
+
+  .product-photo-gallery-four,
+  .product-photo-gallery-three {
+    grid-template-columns: 1fr;
+  }
+
+  .product-photo-tile img {
+    aspect-ratio: 4 / 3;
+  }
+
+  .photo-lightbox {
+    padding: 12px;
+  }
+
+  .photo-lightbox-dialog {
+    width: calc(100vw - 24px);
+    max-height: calc(100vh - 24px);
+    padding: 10px;
+  }
+
+  .photo-lightbox-dialog img {
+    max-height: calc(100vh - 112px);
+  }
+
+  .photo-lightbox-close {
+    top: 14px;
+    right: 14px;
+    width: 36px;
+    height: 36px;
+  }
+
+  #photo-lightbox-caption {
+    padding-right: 42px;
   }
 
   .brand-story-layout {

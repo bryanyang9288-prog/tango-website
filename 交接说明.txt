@@ -1,0 +1,59 @@
+Tango Hygiene 网站交接说明
+
+一、这个文件夹包含什么
+
+- src：网站页面代码和样式
+- public：网站使用的图片、Logo、sitemap 和 robots.txt
+- index.html：网站基础信息和搜索引擎设置
+- package.json / package-lock.json：网站运行所需的项目配置
+
+二、第一次在新电脑打开
+
+1. 安装 Node.js LTS 版本：
+   https://nodejs.org/
+
+2. 解压本压缩包。
+
+3. 在解压后的文件夹空白处按住 Shift 并点击鼠标右键，
+   选择“在终端中打开”或“在 PowerShell 中打开”。
+
+4. 输入：
+   npm install
+
+5. 安装完成后输入：
+   npm run dev -- --host --port 5173
+
+6. 浏览器打开：
+   http://localhost:5173/
+
+注意：预览网站期间不要关闭 PowerShell 窗口。
+
+三、主要修改位置
+
+- 页面内容和结构：src/main.js
+- 页面颜色、字体、间距和布局：src/style.css
+- 图片：public 文件夹
+
+替换图片时，建议保持原文件名不变，这样通常不需要修改代码。
+
+四、检查网站是否可以正式发布
+
+在项目文件夹的 PowerShell 中输入：
+   npm run build
+
+如果看到构建成功，说明网站可以部署。
+
+五、部署
+
+当前网站通过 GitHub 仓库和 Vercel 部署：
+https://github.com/bryanyang9288-prog/tango-website
+
+将修改后的 src、public、index.html、package.json 和
+package-lock.json 更新到 GitHub 后，Vercel 会自动重新部署。
+
+六、重要提醒
+
+- 不要删除 public/robots.txt 和 public/sitemap.xml。
+- 不要删除 Google Search Console 的 DNS 验证记录。
+- 表单使用 Web3Forms，访问密钥位于 src/main.js。
+- 联系邮箱为 info@tangohygiene.com.au。
