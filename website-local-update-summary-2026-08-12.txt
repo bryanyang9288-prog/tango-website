@@ -1,0 +1,52 @@
+Tango Hygiene Website Local Update Summary
+Date: 12 August 2026
+
+Website folder updated:
+C:\Users\mylee\OneDrive\Desktop\1\tango\Github\tango-website
+
+Status:
+- Local website files have been updated.
+- Changes have NOT been pushed to GitHub.
+- GitHub Desktop should show the local changes for review.
+- Build check passed successfully.
+
+Files changed:
+- src/main.js
+- src/style.css
+
+Changes made:
+1. Available at Local Stores
+- Removed the line: "Free delivery within Sydney's Upper North Shore for phone orders over $100."
+- Added a new store:
+  PENNANT HILLS
+  Astley Pharmacy and Mobility
+  368 Pennant Hills Road, Pennant Hills NSW 2120
+
+2. 7-Day Return Guarantee Image
+- Removed the 7-Day Return Guarantee image from the local stores / contact CTA section.
+- Adjusted the section layout so it now displays cleanly without the image area.
+
+3. FAQ Section
+- Removed the FAQ question:
+  "Do you deliver outside Sydney CBD and the Upper North Shore?"
+- Removed the FAQ answer about current delivery focus and contact options.
+- Removed the FAQ question:
+  "What if I choose the wrong size?"
+- Removed the FAQ answer:
+  "Unopened packs can be returned within 7 days."
+
+4. Text Adjustment
+- Updated the FAQ intro from:
+  "Clear answers about Tango product design, technology, delivery, and support."
+  to:
+  "Clear answers about Tango product design, technology, and support."
+- Updated the local stores section intro from:
+  "Any unopened packs can be returned within 7 days."
+  to:
+  "Find Tango Hygiene products at selected local stores."
+
+Local preview:
+http://localhost:5173/#contact-cta
+
+Next step:
+Please review the local preview first. Only after approval should these changes be committed and pushed to GitHub.

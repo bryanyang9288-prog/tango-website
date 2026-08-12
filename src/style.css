@@ -838,9 +838,13 @@ a {
 
 .contact-cta-layout {
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
+  grid-template-columns: 1fr;
   gap: 20px;
   align-items: stretch;
+}
+
+.contact-cta-copy {
+  max-width: 980px;
 }
 
 .contact-cta-copy .section-intro {
@@ -848,7 +852,7 @@ a {
 }
 
 .local-stores {
-  max-width: 68ch;
+  max-width: 980px;
   margin: 20px 0 22px;
   padding: 18px 20px;
   border: 1px solid #d8d3c5;

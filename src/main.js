@@ -391,8 +391,7 @@
         <div class="container">
           <h2>Frequently Asked Questions</h2>
           <p class="section-intro">
-            Clear answers about Tango product design, technology, delivery, and
-            support.
+            Clear answers about Tango product design, technology, and support.
           </p>
           <div class="faq-list">
             <details>
@@ -418,20 +417,6 @@
               </p>
             </details>
             <details>
-              <summary>Do you deliver outside Sydney CBD and the Upper North Shore?</summary>
-              <p>
-                We currently focus on Sydney CBD and the Upper North Shore. If
-                you’re outside this area, please contact us and we’ll let you know
-                what delivery options are available.
-              </p>
-            </details>
-            <details>
-              <summary>What if I choose the wrong size?</summary>
-              <p>
-                Unopened packs can be returned within 7 days.
-              </p>
-            </details>
-            <details>
               <summary>Which product should I start with: pants, diapers, pads, or mats?</summary>
               <p>
                 Adult Pants are simple for mobile users. Tab-style Adult Diapers
@@ -448,7 +433,7 @@
           <div class="contact-cta-copy">
             <h2>Shop with Confidence</h2>
             <p class="section-intro">
-              Any unopened packs can be returned within 7 days.
+              Find Tango Hygiene products at selected local stores.
             </p>
             <div class="local-stores">
               <h3>Available at Local Stores</h3>
@@ -518,6 +503,13 @@
                   </div>
                 </li>
                 <li>
+                  <span class="store-suburb">PENNANT HILLS</span>
+                  <div class="store-entry">
+                    <strong>Astley Pharmacy and Mobility</strong>
+                    <span>368 Pennant Hills Road, Pennant Hills NSW 2120</span>
+                  </div>
+                </li>
+                <li>
                   <span class="store-suburb">CARLINGFORD</span>
                   <div class="store-entry">
                     <strong>Discount Day &amp; Night Pharmacy</strong>
@@ -553,7 +545,6 @@
                   </div>
                 </li>
               </ul>
-              <p>Free delivery within Sydney's Upper North Shore for phone orders over $100.</p>
             </div>
             <div class="inline-actions">
               <a class="button-primary" href="#contact">Contact Us</a>
@@ -561,9 +552,6 @@
               <a class="button-secondary" href="#contact">Get a Quote</a>
             </div>
           </div>
-          <figure class="contact-cta-visual">
-            <img src="/7_day.png" alt="7-day unopened return support" />
-          </figure>
         </div>
       </section>
 
