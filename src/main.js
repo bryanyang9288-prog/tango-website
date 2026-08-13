@@ -461,6 +461,13 @@
                   </div>
                 </li>
                 <li>
+                  <span class="store-suburb">PYMBLE</span>
+                  <div class="store-entry">
+                    <strong>Pymble Pharmacy</strong>
+                    <span>99-101 Grandview Street, Pymble NSW 2073</span>
+                  </div>
+                </li>
+                <li>
                   <span class="store-suburb">HORNSBY</span>
                   <div class="store-entry">
                     <strong>Priceline Pharmacy Hornsby</strong>
@@ -542,6 +549,13 @@
                   <div class="store-entry">
                     <strong>Minchinbury Pharmacy</strong>
                     <span>Shop 5, 36-38 Minchin Dr, Minchinbury NSW 2770</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="store-suburb">LONG JETTY</span>
+                  <div class="store-entry">
+                    <strong>Long Jetty Mobility Centre</strong>
+                    <span>397 The Entrance Road, Long Jetty NSW 2261</span>
                   </div>
                 </li>
               </ul>
