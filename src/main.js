@@ -461,6 +461,13 @@
                   </div>
                 </li>
                 <li>
+                  <span class="store-suburb">LINDFIELD</span>
+                  <div class="store-entry">
+                    <strong>SuperSave Chemist-Lindfield</strong>
+                    <span>19-21 Lindfield Avenue, Lindfield NSW 2070</span>
+                  </div>
+                </li>
+                <li>
                   <span class="store-suburb">PYMBLE</span>
                   <div class="store-entry">
                     <strong>Pymble Pharmacy</strong>
