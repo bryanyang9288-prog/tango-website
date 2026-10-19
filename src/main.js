@@ -481,11 +481,15 @@
                     <span>99-101 Grandview Street, Pymble NSW 2073</span>
                   </div>
                 </li>
-                <li>
+                <li id="store-hornsby">
                   <span class="store-suburb">HORNSBY</span>
                   <div class="store-entry">
                     <strong>Priceline Pharmacy Hornsby</strong>
                     <span>Shop 1001, Westfield Hornsby<br />236 Pacific Highway, Hornsby NSW 2077</span>
+                  </div>
+                  <div class="store-entry">
+                    <strong>Direct Chemist Outlet</strong>
+                    <span>171 Peats Ferry Road, Hornsby NSW 2077</span>
                   </div>
                 </li>
                 <li>
@@ -563,6 +567,13 @@
                   <div class="store-entry">
                     <strong>Darin's Pharmacy</strong>
                     <span>140 Victoria Road, North Parramatta NSW 2151</span>
+                  </div>
+                </li>
+                <li id="store-ashfield">
+                  <span class="store-suburb">ASHFIELD</span>
+                  <div class="store-entry">
+                    <strong>Priceline Ashfield</strong>
+                    <span>Shop 73/260A Liverpool Road, Ashfield NSW 2131</span>
                   </div>
                 </li>
                 <li>
