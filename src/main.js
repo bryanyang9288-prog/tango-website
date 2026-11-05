@@ -591,6 +591,13 @@
                     <span>112 Merrylands Road, Merrylands NSW 2160</span>
                   </div>
                 </li>
+                <li id="store-guildford">
+                  <span class="store-suburb">GUILDFORD</span>
+                  <div class="store-entry">
+                    <strong>Direct Chemist Outlet</strong>
+                    <span>333 Guildford Road, Guildford NSW 2161</span>
+                  </div>
+                </li>
                 <li>
                   <span class="store-suburb">CHERRYBROOK</span>
                   <div class="store-entry">
