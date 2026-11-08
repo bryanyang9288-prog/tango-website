@@ -565,6 +565,14 @@ a {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.product-photo-gallery-two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.product-photo-gallery-five {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .product-photo-tile {
   margin: 0;
   display: grid;
@@ -1127,6 +1135,14 @@ a {
 
   .product-photo-gallery-four,
   .product-photo-gallery-three {
+    grid-template-columns: 1fr;
+  }
+
+  .product-photo-gallery-two {
+    grid-template-columns: 1fr;
+  }
+
+  .product-photo-gallery-five {
     grid-template-columns: 1fr;
   }
 

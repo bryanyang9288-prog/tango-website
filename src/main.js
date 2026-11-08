@@ -198,7 +198,7 @@
           <h2>Product Guide</h2>
           <p class="section-intro">
             Explore Tango Hygiene’s continence care range, including ActivePro
-            Pads, Adult Diapers, Adult Pants, and Protective Mats.
+            Pads, Adult Diapers, AosCare Adult Pants, Protective Mats, and Sudocrem.
           </p>
 
           <div class="product-block">
@@ -246,6 +246,56 @@
               />
             </figure>
           </div>
+          <div class="product-block">
+            <figure class="guide-main-visual">
+              <img src="/protective-mats-lifestyle.png" alt="Tango Protective Mats pack with disposable underpad in a bright care setting" />
+            </figure>
+            <article class="guide-formats">
+              <p class="product-eyebrow">BED PROTECTION</p>
+              <h3>Protective Mats</h3>
+              <p class="guide-sub-desc">Disposable underpads designed to help protect beds and other surfaces during everyday care.</p>
+              <ul class="format-list">
+                <li>Absorbent wood-pulp core and non-woven surface</li>
+                <li>600 × 900 mm mat size</li>
+                <li>50 mats per pack</li>
+              </ul>
+              <a class="product-inline-link" href="#inquiry-form">Request Samples →</a>
+            </article>
+          </div>
+
+          <div class="product-block product-block-reverse">
+            <article class="guide-formats">
+              <p class="product-eyebrow">EVERYDAY MOBILITY</p>
+              <h3>AosCare Adult Pants</h3>
+              <p class="guide-sub-desc">Pull-on unisex pants for people who want practical protection while staying mobile and independent.</p>
+              <ul class="format-list">
+                <li>Designed for moderate to heavy incontinence</li>
+                <li>Sizes S, M, L, and XL</li>
+                <li>10 pants per pack</li>
+              </ul>
+              <a class="product-inline-link" href="#inquiry-form">Request Samples →</a>
+            </article>
+            <figure class="guide-main-visual">
+              <img src="/aoscare-pants-lifestyle.png" alt="AosCare Adult Pants pack and pull-on pants in a bright care setting" />
+            </figure>
+          </div>
+
+          <div class="product-block">
+            <figure class="guide-main-visual">
+              <img src="/sudocrem-lifestyle.png" alt="Sudocrem Healing Cream 400 gram tub in a bright care setting" />
+            </figure>
+            <article class="guide-formats">
+              <p class="product-eyebrow">SKIN CARE</p>
+              <h3>Sudocrem Healing Cream</h3>
+              <p class="guide-sub-desc">A barrier cream that helps protect skin and provides soothing relief from nappy rash symptoms.</p>
+              <ul class="format-list">
+                <li>Suitable for adults with incontinence</li>
+                <li>Contains zinc oxide 15.29% w/w</li>
+                <li>400 g tub</li>
+              </ul>
+              <a class="product-inline-link" href="#inquiry-form">Enquire Now →</a>
+            </article>
+          </div>
         </div>
       </section>
 
@@ -256,7 +306,7 @@
             <h2>See the Products Up Close</h2>
             <p class="section-intro">
               Product photos are grouped by range so customers can clearly
-              compare ActivePro Pads and Adult Diapers.
+              compare the full care range.
             </p>
           </div>
 
@@ -308,6 +358,41 @@
                   <img src="/diaper-secure-fit.png" alt="Tango adult diaper patented strong re-fasten adhesive tape close-up" />
                   <figcaption>Patented Strong Re-fasten Adhesive Tape</figcaption>
                 </figure>
+              </div>
+            </section>
+            <section class="product-photo-group" aria-labelledby="mat-photo-title">
+              <div class="product-photo-group-heading">
+                <p class="product-eyebrow">PROTECTIVE MATS</p>
+                <h3 id="mat-photo-title">Protective Mats</h3>
+              </div>
+              <div class="product-photo-gallery product-photo-gallery-two">
+                <figure class="product-photo-tile"><img src="/protective-mats-lifestyle.png" alt="Tango Protective Mats pack and unfolded mat" /><figcaption>Pack and Mat</figcaption></figure>
+                <figure class="product-photo-tile"><img src="/protective-mats-surface.png" alt="Tango Protective Mat surface" /><figcaption>Mat Surface</figcaption></figure>
+              </div>
+            </section>
+
+            <section class="product-photo-group product-photo-group-diapers" aria-labelledby="pants-photo-title">
+              <div class="product-photo-group-heading">
+                <p class="product-eyebrow">AOSCARE ADULT PANTS</p>
+                <h3 id="pants-photo-title">AosCare Adult Pants</h3>
+              </div>
+              <div class="product-photo-gallery product-photo-gallery-five">
+                <figure class="product-photo-tile"><img src="/aoscare-pants-lifestyle.png" alt="AosCare Adult Pants pack and product" /><figcaption>Pack and Pants</figcaption></figure>
+                <figure class="product-photo-tile"><img src="/aoscare-pants-product.png" alt="Front view of AosCare Adult Pants" /><figcaption>Front View</figcaption></figure>
+                <figure class="product-photo-tile"><img src="/aoscare-pants-side-styled.png" alt="Side view of AosCare Adult Pants showing the leg opening and fit" /><figcaption>Side View</figcaption></figure>
+                <figure class="product-photo-tile"><img src="/aoscare-pants-back-styled.png" alt="Back view of AosCare Adult Pants" /><figcaption>Back View</figcaption></figure>
+                <figure class="product-photo-tile"><img src="/aoscare-pants-inner-styled.png" alt="Inside detail of AosCare Adult Pants" /><figcaption>Inside Detail</figcaption></figure>
+              </div>
+            </section>
+
+            <section class="product-photo-group" aria-labelledby="sudocrem-photo-title">
+              <div class="product-photo-group-heading">
+                <p class="product-eyebrow">SKIN CARE</p>
+                <h3 id="sudocrem-photo-title">Sudocrem Healing Cream</h3>
+              </div>
+              <div class="product-photo-gallery product-photo-gallery-two">
+                <figure class="product-photo-tile"><img src="/sudocrem-lifestyle.png" alt="Sudocrem Healing Cream 400 gram tub" /><figcaption>Front Label</figcaption></figure>
+                <figure class="product-photo-tile product-photo-tile-contain"><img src="/sudocrem-back.webp" alt="Back label and directions on Sudocrem Healing Cream tub" /><figcaption>Back Label</figcaption></figure>
               </div>
             </section>
           </div>
