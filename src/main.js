@@ -248,7 +248,7 @@
           </div>
           <div class="product-block">
             <figure class="guide-main-visual">
-              <img src="/protective-mats-lifestyle.png" alt="Tango Protective Mats pack with disposable underpad in a bright care setting" />
+              <img src="/protective-mats-lifestyle.png" alt="Tango Protective Mats pack with a 600 × 900 mm disposable underpad in a bright care setting" />
             </figure>
             <article class="guide-formats">
               <p class="product-eyebrow">BED PROTECTION</p>
@@ -366,8 +366,8 @@
                 <h3 id="mat-photo-title">Protective Mats</h3>
               </div>
               <div class="product-photo-gallery product-photo-gallery-two">
-                <figure class="product-photo-tile"><img src="/protective-mats-lifestyle.png" alt="Tango Protective Mats pack and unfolded mat" /><figcaption>Pack and Mat</figcaption></figure>
-                <figure class="product-photo-tile"><img src="/protective-mats-surface.png" alt="Tango Protective Mat surface" /><figcaption>Mat Surface</figcaption></figure>
+                <figure class="product-photo-tile"><img src="/protective-mats-lifestyle.png" alt="Tango Protective Mats pack and 600 × 900 mm unfolded mat" /><figcaption>Pack and Mat · 600 × 900 mm</figcaption></figure>
+                <figure class="product-photo-tile"><img src="/protective-mats-surface.png" alt="Surface of a 600 × 900 mm Tango Protective Mat" /><figcaption>Mat Surface</figcaption></figure>
               </div>
             </section>
 
