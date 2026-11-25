@@ -183,7 +183,7 @@
             </div>
             <div class="video-frame product-video-frame">
               <iframe
-                src="https://www.youtube.com/embed/ygrdFXV4Nfg"
+                src="https://www.youtube.com/embed/XzxB_TSntk0"
                 title="Tango product demonstration video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
